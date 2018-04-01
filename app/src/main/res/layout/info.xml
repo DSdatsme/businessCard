@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name : "
+            android:textColor="#B71C1C"
+            android:textSize="@dimen/info_size"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address : "
+            android:textColor="#B71C1C"
+            android:textSize="@dimen/info_size"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Website : "
+            android:textColor="#B71C1C"
+            android:textSize="@dimen/info_size"
+
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone : "
+            android:textColor="#B71C1C"
+            android:textSize="@dimen/info_size"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:textColor="#B71C1C"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:textColor="#B71C1C"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Darshit Suratwala "
+            android:textSize="@dimen/info_size"
+            />
+
+        <TextView
+            android:textColor="#B71C1C"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is my address, City , State "
+            android:textSize="@dimen/info_size"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="www.giyf.com"
+            android:autoLink="web"
+            android:textColor="#B71C1C"
+            android:textSize="@dimen/info_size"
+
+            android:textColorLink="#B71C1C"/>
+
+
+
+        <TextView
+            android:textColorLink="#B71C1C"
+            android:textColor="#B71C1C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9876543210 "
+            android:autoLink="phone"
+            android:textSize="@dimen/info_size"
+            />
+    </LinearLayout>
+
+</LinearLayout>
