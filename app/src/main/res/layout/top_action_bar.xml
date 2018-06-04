@@ -7,7 +7,7 @@
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="#F67115"
+        android:background="@color/theme_orange"
         android:gravity="center">
 
         <ImageView
@@ -28,7 +28,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:fontFamily="sans-serif-smallcaps"
-            android:text="DS Photography"
+            android:text="@string/main_title"
             android:textColor="#bbb"
             android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"

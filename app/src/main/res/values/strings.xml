@@ -8,4 +8,14 @@
                             \u2022  Marriages\n
                             \u2022  Festivals\n
                             \u2022  Other events</string>
+    <string name="name_tag">Name :</string>
+    <string name="address_tag">Address :</string>
+    <string name="website_tag">Website :</string>
+    <string name="phone_tag">Phone :</string>
+    <string name="name_value">Darshit Suratwala</string>
+    <string name="address_value">This is my address, City , State</string>
+    <string name="website_value">www.giyf.com</string>
+    <string name="phone_value">9876543210</string>
+    <string name="main_title">DS Photography</string>
+    <string name="service_tag">Services for :</string>
 </resources>
