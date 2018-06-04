@@ -5,26 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/back"
-
     tools:context="com.example.dsdatsme.localbusinesscard.MainActivity">
 
     <!--parent ViewGroup for everything-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
 
         <!--top bar-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-
             <include
                 layout="@layout/top_action_bar"
                 app:layout_constraintBottom_toBottomOf="parent" />
-
 
         </LinearLayout>
 
@@ -34,10 +30,10 @@
             android:layout_height="wrap_content"
             android:fontFamily="cursive"
             android:gravity="right"
-            android:paddingRight="13dp"
+            android:paddingRight="@dimen/spacing_13dp"
             android:text="@string/intro"
-            android:textColor="#00ff00"
-            android:textSize="35sp"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_size_35"
             android:textStyle="bold|italic" />
 
         <!--service listiing goes here-->
@@ -47,9 +43,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp"
+            android:layout_margin="@dimen/def_margin"
             android:background="@drawable/rounded_background_white"
-            android:padding="8dp">
+            android:padding="@dimen/spacing_8dp">
 
             <include layout="@layout/info" />
         </LinearLayout>

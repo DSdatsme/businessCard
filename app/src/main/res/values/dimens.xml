@@ -3,4 +3,8 @@
     <dimen name="def_margin">15dp</dimen>
     <dimen name="no_dimension">0dp</dimen>
     <dimen name="small_spacing">5dp</dimen>
+    <dimen name="info_size">16sp</dimen>
+    <dimen name="text_size_35">35sp</dimen>
+    <dimen name="spacing_8dp">8dp</dimen>
+    <dimen name="spacing_13dp">13dp</dimen>
 </resources>

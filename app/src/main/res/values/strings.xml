@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">LocalBusinessCard</string>
     <string name="intro">Capture your life with US</string>
-<dimen name="info_size">16sp</dimen>
+
     <string name="listing"> \u0020\u2022  Birthday Celebrations\n
                             \u2022  MeetUps\n
                             \u2022  Parties\n
